@@ -1,0 +1,13 @@
+---
+layout: post
+subtitle: null
+date: ""
+published: false
+title: vagrant
+---
+
+
+
+## Vagrant
+
+Research and create a blog post.
