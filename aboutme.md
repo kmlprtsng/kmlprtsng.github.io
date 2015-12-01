@@ -1,16 +1,23 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: I play hockey, love programming and I'm always looking to improve
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like
+Angular, React, knockout etc. Through this blog I would like to share my knowledge with the world 
+and also would like to learn from the visitors of this blog. With the sharing of knowledge, 
+I hope that the world will be a better place.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Currently I am very interested in full stack developement and I'm looking into [Meteor](https://www.meteor.com/) 
+and [MEAN](http://meanjs.org/).
 
-What else do you need?
+### Projects I have worked on
 
-### my history
+I have worked on many work based projects the links to which are only avilable internally so here is a list
+of projects that I have worked on in my free time:
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- [Punjab Times](http://www.punjabtimes.co.uk)
+- [SikhNet Radio App](https://itunes.apple.com/app/gurbani-media-center/id487763229) - Partially worked on this
+- [Singh Sabha Derby](http://www.sgssderby.co.uk)
+- [Singh Sabha Derby Radio App](https://play.google.com/store/apps/details?id=uk.co.sgssderby.radio&hl=en_GB)
