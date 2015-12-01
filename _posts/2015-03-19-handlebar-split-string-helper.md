@@ -14,6 +14,7 @@ Doh!! Do you embed your HTML code in JS code. Bad….Handlebars to the rescue.
 While using Handlebars I came across a scenario where I had to split a string using a delimiter and then push the contents into the DOM individually.
 
 **Show me Code**
+
 ~~~
 Handlebars.registerHelper("splitString", function(context, options){
     if(context){
