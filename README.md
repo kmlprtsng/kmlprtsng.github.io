@@ -50,9 +50,9 @@ Beautiful Jekyll is meant to be so simple to use that you can do it all within t
 
 The following front matter was used by the original beautiful-jekyll theme.
 
-layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+**layout**: post  
+**title**: Test markdown  
+**subtitle**: Each post also has a subtitle
 
 ### Known limitations
 
