@@ -26,8 +26,6 @@ footer-links-active:
   stackoverflow: true
 
 url-pretty: "KamalpreetSingh.com"
-
-gems: ['jekyll-paginate', 'pygments']
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
