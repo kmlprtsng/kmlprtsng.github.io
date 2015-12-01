@@ -10,13 +10,6 @@ If the `disqus` parameter is set in the configuration file, then all blog posts 
 
 Beautiful Jekyll lets you easily add Google Analytics to all your pages. This will let you track all sorts of information about visits to your website, such as how many times each page is viewed and where (geographically) your users come from.  To add Google Analytics, simply sign up to [Google Analytics](http://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `google_analytics` parameter in `_config.yml`.  
 
-#### Page types
-
-- **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder and assign `layout: post` in the YAML front matter. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
-- **page** - To add a non-blog page, add a markdown or HTML file in the root directory and assign `layout: page` in the YAML front matter. Look at `aboutme.md` and `index.html` as examples.
-- **minimal** - To add a random page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal`.
-- To write your own HTML page and completely bypass the Jekyll engine, simply omit the YAML front matter. Only do this if you know what you're doing.
-
 #### YAML front matter parameters
 
 These are the main parameters you can place inside a page's YAML front matter that **Beautiful Jekyll** supports.
@@ -52,13 +45,14 @@ Beautiful Jekyll is meant to be so simple to use that you can do it all within t
 4. View your website at `http://0.0.0.0:4000` on *nix or `http://127.0.0.1:4000` on Windows. 
 5. Commit any changes and push everything to the master branch of your GitHub repository. GitHub Pages will then rebuild and serve your website automatically.
 
-### Credits
 
-This template was not made entirely from scratch. I would like to give special thanks to:
-- [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now), from whom I've taken several ideas and code snippets, as well as some documenation tips.
-- [Iron Summit Media](https://github.com/IronSummitMedia) and their project [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from which I've used some design ideas and some of the templating code for posts and pagination.
+### Posts Front Matter
 
-I'd also like to thank [Dr. Jekyll's Themes](http://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+The following front matter was used by the original beautiful-jekyll theme.
+
+layout: post
+title: Test markdown
+subtitle: Each post also has a subtitle
 
 ### Known limitations
 
