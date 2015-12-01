@@ -54,6 +54,7 @@ Handlebars.registerHelper("splitString", function(context, options){
 ~~~
 
 **Results**
+
 ~~~
 <ul>
        <li>big</li>
