@@ -17,7 +17,7 @@ author:
   stackoverflow: 2451434/kamalpreet
  
 footer-links-active:
-  rss: false
+  rss: true
   facebook: true
   email: false
   twitter: true
