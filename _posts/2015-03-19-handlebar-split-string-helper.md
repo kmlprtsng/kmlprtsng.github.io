@@ -33,6 +33,7 @@ Handlebars.registerHelper("splitString", function(context, options){
 ~~~
 
 **Usage**
+
 ~~~
 <div></div>
 <script id="template" type="text/x-handlebars">
