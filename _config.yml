@@ -2,7 +2,7 @@ url: "http://kmlprtsng.github.io"
 baseurl: ""
 title: Kamalpreet Singh
 description: This is my personal blog to share my experience and knowledge
-avatar: "img/center-piece.jpg"
+avatar: "/img/center-piece.jpg"
 
 navbar-links:
   Home: ""
