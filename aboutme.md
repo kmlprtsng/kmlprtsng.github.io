@@ -12,8 +12,7 @@ Currently I am very interested in full stack developement and I'm looking into [
 
 ### Projects I have worked on
 
-I have worked on many work based projects the links to which are only avilable internally so here is a list
-of projects that I have worked on in my free time:
+I have worked on many work based projects the links to which are only avilable internally so here is a list of projects that I have worked on in my free time:
 
 - [Punjab Times](http://www.punjabtimes.co.uk)
 - [SikhNet Radio App](https://itunes.apple.com/app/gurbani-media-center/id487763229) - Partially worked on this
@@ -24,7 +23,7 @@ of projects that I have worked on in my free time:
 - [RHC Derby](http://rhchockey.github.io/)
 - [FirstWorldRx](https://www.firstworldrx.com/)
 
-### Technology stack
+### Technology stack I'm intrested in
 - SOA
 - Asp.net web forms 
 - Asp.net MVC
@@ -39,3 +38,8 @@ of projects that I have worked on in my free time:
 - Ionic
 - Twitter Bootstrap
 - Jekyll
+
+### Technology stack I've dabbled with
+
+### Personal Projects Currently working on
+- [Sehaj Paath Tracker Ionic App] (https://github.com/kmlprtsng/SehajPaathTracker)
