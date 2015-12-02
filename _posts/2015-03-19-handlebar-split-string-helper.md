@@ -34,7 +34,7 @@ Handlebars.registerHelper("splitString", function(context, options){
 
 **Usage**
 
-~~~
+{% highlight Html %}
 <div></div>
 <script id="template" type="text/x-handlebars">
      <ul>
@@ -51,14 +51,14 @@ Handlebars.registerHelper("splitString", function(context, options){
       var html = templ(context);
        $("div").html(html);
 </script>
-~~~
+{% endhighlight %}
 
 **Results**
 
-~~~
+{% highlight Html %}
 <ul>
        <li>big</li>
        <li>gray</li>
        <li>box</li>
  </ul>
-~~~
+{% endhighlight %}
