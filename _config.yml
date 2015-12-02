@@ -10,7 +10,7 @@ navbar-links:
 
 author:
   name: Kamalpreet Singh Chauhan
-  facebook: kamalpreet.singh.9849
+  facebook: yo
   github: kmlprtsng
   twitter: Kamalpreet_kc
   linkedin: kamalpreet-chauhan-787aa038
@@ -18,7 +18,7 @@ author:
  
 footer-links-active:
   rss: true
-  facebook: true
+  facebook: false
   email: false
   twitter: true
   github: true
