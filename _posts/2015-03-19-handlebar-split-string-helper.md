@@ -15,7 +15,7 @@ While using Handlebars I came across a scenario where I had to split a string us
 
 **Show me Code**
 
-~~~
+{% highlight javascript %}
 Handlebars.registerHelper("splitString", function(context, options){
     if(context){
       var ret = "";
@@ -30,7 +30,7 @@ Handlebars.registerHelper("splitString", function(context, options){
       return ret;
     }
   });
-~~~
+{% endhighlight %}
 
 **Usage**
 
