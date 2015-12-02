@@ -23,6 +23,8 @@ of projects that I have worked on in my free time:
 - [Singh Sabha Derby Radio App](https://play.google.com/store/apps/details?id=uk.co.sgssderby.radio&hl=en_GB)
 - [Sehaj Paath Tracker](http://sehajpaathtracker.com/)
 - [Asp.net Generic MVC Project Template](https://github.com/kmlprtsng/MvcGenericProjectTemplate)
+- [RHC Derby](http://rhchockey.github.io/)
+- [FirstWorldRx](https://www.firstworldrx.com/)
 
 ### Technology stack
 - SOA
