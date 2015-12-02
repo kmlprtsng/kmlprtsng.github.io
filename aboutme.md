@@ -23,13 +23,12 @@ I have worked on many work based projects the links to which are only avilable i
 - [RHC Derby](http://rhchockey.github.io/)
 - [FirstWorldRx](https://www.firstworldrx.com/)
 
-### Technology stack I'm intrested in
+### Technology I've worked with
 - SOA
 - Asp.net web forms 
 - Asp.net MVC
 - ServiceStack
 - Object Oriented CSS, SASS & LESS
-- Vargant
 - Meteor
 - MEAN
 - Knockout
@@ -38,8 +37,16 @@ I have worked on many work based projects the links to which are only avilable i
 - Ionic
 - Twitter Bootstrap
 - Jekyll
+- Java
+- NUNIT
+- Resharper
 
-### Technology stack I've dabbled with
+### Technology I've dabbled with
+- Vargant
+- Cygwin
+- VIM
+- Ruby
+- 
 
 ### Personal Projects Currently working on
-- [Sehaj Paath Tracker Ionic App] (https://github.com/kmlprtsng/SehajPaathTracker)
+- [Sehaj Paath Tracker Ionic App](https://github.com/kmlprtsng/SehajPaathTracker)
