@@ -45,6 +45,7 @@ I have worked on many work based projects the links to which are only avilable i
 - Version Control: Git, Github, Bitbucket, SVN, VSS
 - Grunt
 - Bower
+- Yeoman
 - Octopus
 - Team City
 
