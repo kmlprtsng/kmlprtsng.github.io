@@ -2,8 +2,6 @@
 layout: post
 title: Understanding ISO8601 International Date Standard
 published: true
-subtitle: null
-date: ""
 ---
 
 
