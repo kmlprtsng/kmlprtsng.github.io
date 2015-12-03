@@ -2,7 +2,10 @@
 layout: post
 title: Understanding ISO8601 International Date Standard
 published: true
+subtitle: null
+date: ""
 ---
+
 
 #### What is ISO8601 again?
 ISO8601 is a well established International Standard and a valid standard in all EU Countries.  
@@ -33,7 +36,7 @@ ISO8601 suggests to separate the date from time with latin capital letter **T**.
 
 #### Time Zone
 **What's a time zone dude?**  
-Different countries have different time because of the location of the sun or other factors e.g. daylight saving etc. So while in England it is 14:00 o'clock in summer, it is 16:30 in India. 
+Different geographical locations have different time offset to universal time so while in England it is 14:00 o'clock in summer, it is 16:30 in India. 
 
 There are different ways to represent a time zone:
 
@@ -53,3 +56,5 @@ Well there are three ways to represent it.
 2nd way is to calculate the time with certain offset and append that offset information at the end i.e. 2015-08-10T17:30+05:30 would mean that GMT+5:30 has already been calculated.
 
 The third would be to not supply either the "Z" or the offset (e.g. +05:30) and it would be assumed as local time zone.
+
+**Another fun fact:** Because of daylight saving a time might never occur in a location or occur twice e.g. brazil's daylight saving happens on midnight. So 00:00 time never happens at that day.
