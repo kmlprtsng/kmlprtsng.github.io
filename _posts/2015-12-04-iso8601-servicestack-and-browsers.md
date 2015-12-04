@@ -7,6 +7,7 @@ title: "ISO8601, ServiceStack and Browsers"
 ---
 
 
+
 Carrying on from my previous [Understanding ISO8601 International Date Standard](http://kamalpreetsingh.com/2015-12-03-understanding-iso8601-date-standard/) Post.
 
 #### What's the deal?
@@ -50,6 +51,31 @@ JsConfig<DateTime>.SerializeFn = time => new DateTime(time.Ticks, DateTimeKind.L
 JsConfig<DateTime?>.SerializeFn = time => time != null ? new DateTime(time.Value.Ticks, DateTimeKind.Local).ToString("o") : null;
 {% endhighlight%}
 
+#### Some Raw data
+
+All the following table results are based on having the **DateTimeKind** as being **Unspecified** on the dates.
+
+With `JsConfig.DateHandler = DateHandler.ISO8601; JsConfig.AssumeUtc = false;`
+
+ActualDate   | ServiceStack output | Browser Parsing | Daylight Saving
+----------- | ----------- | ----- | ----
+2015-06-09 | 2015-06-09T00:00:00.0000000  | Tue Jun 09 2015 01:00:00 GMT+0100 | Yes
+2015-12-09 | 2015-12-09T00:00:00.0000000  | Wed Dec 09 2015 00:00:00 GMT+0000 | No
+
+
+With `JsConfig.DateHandler = DateHandler.ISO8601; JsConfig.AssumeUtc = true;`
+
+ActualDate   | ServiceStack output | Browser Parsing | Daylight Saving
+----------- | ----------- | ----- | ----
+2015-06-09 | 2015-06-09T00:00:00.0000000**Z**  | Tue Jun 09 2015 01:00:00 GMT+0100 | Yes
+2015-12-09 | 2015-12-09T00:00:00.0000000**Z**  | Wed Dec 09 2015 00:00:00 GMT+0000 | No
+
+With `JsConfig<DateTime>.SerializeFn = time => new DateTime(time.Ticks, DateTimeKind.Local).ToString("o");`
+
+ActualDate   | ServiceStack output | Browser Parsing | Daylight Saving
+----------- | ----------- | ----- | ----
+2015-06-09 | 2015-06-09T00:00:00.0000000+01:00  | Tue Jun 09 2015 00:00:00 GMT+0100 | Yes
+2015-12-09 | 2015-12-09T00:00:00.0000000+00:00  | Wed Dec 09 2015 00:00:00 GMT+0000 | No
 
 #### Conclusion
 Depending on your needs, you may always want the time to be treated as local time everywhere hence ignoring different time zones. In which case you will want to go for the first solution.
