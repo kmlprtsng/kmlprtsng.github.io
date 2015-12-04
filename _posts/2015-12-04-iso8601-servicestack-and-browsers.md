@@ -15,7 +15,7 @@ Well you will see that in a minute. Different settings in ServiceStack will resu
 
 #### Settings in ServiceStack
 ```
-JsConfig.DateHandler = DateHandler.ISO8601;
+JsConfig.DateHandler = DateHandler.ISO8601;  
 JsConfig.AssumeUtc = false;
 ```
 
@@ -25,25 +25,24 @@ The above setting will take dates that are being returned back by the ServiceSta
 2. `2015-06-09T00:00:00.0000000`
 3. `2015-06-09T00:00:00.0000000+01:00` (with date already having calculated the offset)
 
-Well the correct answer is 2. Why? Because ServiceStack doesn't know what the DateTimeKind is so it doesn't send that information back to the consuming client (which we will assume is a chrom browser for this post).
+Well the correct answer is 2. Why? Because ServiceStack doesn't know what the DateTimeKind is so it doesn't send that information back to the consuming client (which we will assume is a chrome browser for this post). ServiceStack is doing the right thing.
 
-> Browser does not talk ServiceStack
+> Browsers do not talk ISO8601
 
-So now the browser has the date as `2015-06-09T00:00:00.0000000` so when you do `new Date("2015-06-09T00:00:00.0000000")` it goes on the assumption that the DateTime is UTC and turns that date into `Tue Jun 09 2015 01:00:00 GMT+0100 (GMT Daylight Time)`. So it adds another hour to accommodate the offset to make it into a UTC date.
+So now the browser has the date as `2015-06-09T00:00:00.0000000` so when you do `new Date("2015-06-09T00:00:00.0000000")` it goes on the assumption that the DateTime is UTC (which it should not) and turns that date into `Tue Jun 09 2015 01:00:00 GMT+0100 (GMT Daylight Time)`. So it adds another hour to accommodate the offset to make it a local date. Now, according to the ISO8601 it should assume that.
 
-**Surprise Surprise**: if the date was a winter date e.g. `2015-11-04T00:00:00.0000000` and you did `new Date("2015-11-04T00:00:00.0000000")` in the browser, the browser would then keep the date as is i.e. `Wed Nov 04 2015 00:00:00 GMT+0000 (GMT Standard Time)` because there is no offset to be added.
+**Winter Surprise**: If the date was a winter date e.g. `2015-11-04T00:00:00.0000000` and you did `new Date("2015-11-04T00:00:00.0000000")` in the browser, the browser would then keep the date as is i.e. `Wed Nov 04 2015 00:00:00 GMT+0000 (GMT Standard Time)` because there is no offset to be added.
 
 **How about we just add `JsConfig.AssumeUtc = true;`**  
-Well we could do that but you have to be aware of how the browser would handle it. You see with the AssumeUtc flag turned on ServiceStack would return the following: `2015-06-09T00:00:00.0000000Z` output. So in our browser when we do `new Date("2015-06-09T00:00:00.0000000Z")` what we get back is `Tue Jun 09 2015 01:00:00 GMT+0100 (GMT Daylight Time)`, which again results in an added hour in the browser to convert the date to local date.
+Well we could do that but you have to be aware of how the browser would handle it. You see with the AssumeUtc flag turned on ServiceStack would return the following: `2015-06-09T00:00:00.0000000Z` output. So in our browser when we do `new Date("2015-06-09T00:00:00.0000000Z")` what we get back is `Tue Jun 09 2015 01:00:00 GMT+0100 (GMT Daylight Time)`, which again results in an added hour in the browser to convert the date to local date so in this case the browser and ServiceStack are both right.
 
 #### Is there anything else we can do?
-The problem is really that the browser is assuming that the date time without a given TimeZone (i.e. `2015-06-09T00:00:00.0000000`) is UTC and hence it is appending another hour onto it. It should really assume that the date is in local time zone and not do what it is currently doing but hey, they are making that assumption so we have to deal with it.
+The problem is the browser assuming date time without a given Time Zone (i.e. `2015-06-09T00:00:00.0000000`) as UTC and hence it is appending another hour onto it. It should really assume that the date is in local time zone and not do what it is currently doing but hey, they are making that assumption so we have to deal with it.
 
 There are couple of solutions though:
 
-1. In the browser apply the [following solution](http://stackoverflow.com/a/15568516). Decorating the date with UTC timezone (e.g. `DateTime.SpecifyKind(waitingListEntry.DateAddedToList, DateTimeKind.Utc);`) will not have any impact on the browser's behavior as discussed earlier.
-2. Apply the following code which would return the date with the offset applied and also return the offset that was applied e.g. `2015-06-09T00:00:00.0000000+01:00`. This might again cause problems if dealing with territories with different times. 
-
+1. In the browser apply the [following solution](http://stackoverflow.com/a/15568516). Decorating the date with UTC timezone (e.g. `DateTime.SpecifyKind(waitingListEntry.DateAddedToList, DateTimeKind.Utc);`) will not have any impact on the browser's behavior as discussed earlier. This solution in essence is negating the browsers behaviour to treat the date time as UTC and hence treat the date returned as a date with local time zone.
+2. Apply the following code which would return the date with the offset applied and also return the offset applied information e.g. `2015-06-09T00:00:00.0000000+01:00`. This might again cause problems if dealing with territories with different time zones. 
 {% highlight C#%}
 JsConfig<DateTime>.SerializeFn = time => new DateTime(time.Ticks, DateTimeKind.Local).ToString("o");
 
