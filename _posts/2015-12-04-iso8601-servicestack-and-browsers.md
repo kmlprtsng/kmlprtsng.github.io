@@ -6,6 +6,7 @@ published: true
 title: "ISO8601, ServiceStack and Browsers"
 ---
 
+
 Carrying on from my previous [Understanding ISO8601 International Date Standard](http://kamalpreetsingh.com/2015-12-03-understanding-iso8601-date-standard/) Post.
 
 #### What's the deal?
@@ -27,7 +28,7 @@ The above setting will take dates that are being returned back by the ServiceSta
 
 Well the correct answer is 2. Why? Because ServiceStack doesn't know what the DateTimeKind is so it doesn't send that information back to the consuming client (which we will assume is a chrome browser for this post). ServiceStack is doing the right thing.
 
-> Browsers do not talk ISO8601
+> Browsers don't always talk ISO8601
 
 So now the browser has the date as `2015-06-09T00:00:00.0000000` so when you do `new Date("2015-06-09T00:00:00.0000000")` it goes on the assumption that the DateTime is UTC (which it should not) and turns that date into `Tue Jun 09 2015 01:00:00 GMT+0100 (GMT Daylight Time)`. So it adds another hour to accommodate the offset to make it a local date. Now, according to the ISO8601 it should assume that.
 
