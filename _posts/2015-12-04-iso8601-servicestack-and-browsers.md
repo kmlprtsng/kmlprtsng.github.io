@@ -56,3 +56,6 @@ Depending on your needs, you may always want the time to be treated as local tim
 However for the needs to show time differently to people with different time zones a much more thoughtful decision would be required and browsers' behavior will need to be taken into consideration, specially when the services are not returning any time zone information.
 
 DateTime stuff is very complicated and I am certainly no expert so if I have got some information incorrect then please do let me know. Thanks.
+
+##### References
+[Fun with DateTime: DateTimeKind.Unspecified](http://jeremybytes.blogspot.co.uk/2015/05/fun-with-datetime-datetimekindunspecifi.html)
