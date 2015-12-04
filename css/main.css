@@ -406,3 +406,11 @@ header.header-post .post-heading .post-subheading {
 .blog-post table tr td :last-child {
   margin-bottom: 0;
 }
+
+table{
+  font-size: 0.9em;
+}
+td,th{
+  padding: 0 10px;
+  border: 1px solid black;
+}
