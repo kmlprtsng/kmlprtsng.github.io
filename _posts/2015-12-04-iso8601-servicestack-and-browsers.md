@@ -41,7 +41,7 @@ The problem is the browser assuming date time without a given Time Zone (i.e. `2
 
 There are couple of solutions though:
 
-1. In the browser apply the [following solution](http://stackoverflow.com/a/15568516). Decorating the date with UTC timezone (e.g. `DateTime.SpecifyKind(waitingListEntry.DateAddedToList, DateTimeKind.Utc);`) will not have any impact on the browser's behavior as discussed earlier. This solution in essence is negating the browsers behaviour to treat the date time as UTC and hence treat the date returned as a date with local time zone.
+1. In the browser apply the [following solution](http://stackoverflow.com/a/15568516). Decorating the date with UTC timezone (e.g. `DateTime.SpecifyKind(someDate, DateTimeKind.Utc);`) will not have any impact on the browser's behavior as discussed earlier. This solution in essence is negating the browsers behaviour to treat the date time as UTC and hence treat the date returned as a date with local time zone.
 2. Apply the following code which would return the date with the offset applied and also return the offset applied information e.g. `2015-06-09T00:00:00.0000000+01:00`. This might again cause problems if dealing with territories with different time zones. 
 {% highlight C#%}
 JsConfig<DateTime>.SerializeFn = time => new DateTime(time.Ticks, DateTimeKind.Local).ToString("o");
