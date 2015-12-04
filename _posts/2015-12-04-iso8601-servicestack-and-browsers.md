@@ -57,5 +57,5 @@ However for the needs to show time differently to people with different time zon
 
 DateTime stuff is very complicated and I am certainly no expert so if I have got some information incorrect then please do let me know. Thanks.
 
-##### References
+#### References
 [Fun with DateTime: DateTimeKind.Unspecified](http://jeremybytes.blogspot.co.uk/2015/05/fun-with-datetime-datetimekindunspecifi.html)
