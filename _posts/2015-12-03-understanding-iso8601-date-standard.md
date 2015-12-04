@@ -2,7 +2,10 @@
 layout: post
 title: Understanding ISO8601 International Date Standard
 published: true
+subtitle: null
+date: ""
 ---
+
 
 
 #### What is ISO8601 again?
@@ -55,7 +58,7 @@ Well there are three ways to represent it.
 
 The third would be to not supply either the "Z" or the offset (e.g. +05:30) and it would be assumed as local time zone.
 
-**Another fun fact:** Because of daylight saving a time might never occur in a location or occur twice e.g. brazil's daylight saving happens on midnight. So 00:00 time never happens at that day. (Courtesy of Sakis Koltadis)
+**Another fun fact:** Because of daylight saving a time might never occur in a location or occur twice e.g. brazil's daylight saving happens on midnight. So 00:00 time never happens at that day. (Courtesy of [Sakis Koltadis](https://twitter.com/sakisk))
 
 #### References
 [https://www.cl.cam.ac.uk/~mgk25/iso-time.html](https://www.cl.cam.ac.uk/~mgk25/iso-time.html)
