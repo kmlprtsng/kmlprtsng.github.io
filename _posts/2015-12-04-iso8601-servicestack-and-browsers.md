@@ -49,6 +49,7 @@ JsConfig<DateTime>.SerializeFn = time => new DateTime(time.Ticks, DateTimeKind.L
 JsConfig<DateTime?>.SerializeFn = time => time != null ? new DateTime(time.Value.Ticks, DateTimeKind.Local).ToString("o") : null;
 {% endhighlight%}
 
+
 #### Conclusion
 Depending on your needs, you may always want the time to be treated as local time everywhere hence ignoring different time zones. In which case you will want to go for the first solution.
 
