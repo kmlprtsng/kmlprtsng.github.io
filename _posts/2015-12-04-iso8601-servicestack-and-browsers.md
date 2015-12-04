@@ -3,7 +3,7 @@ layout: post
 subtitle: null
 date: "2015-12-04"
 published: true
-title: ISO8601 ServiceStack and Browsers
+title: "ISO8601, ServiceStack and Browsers"
 ---
 
 Carrying on from my previous [Understanding ISO8601 International Date Standard](http://kamalpreetsingh.com/2015-12-03-understanding-iso8601-date-standard/) Post.
@@ -48,3 +48,8 @@ JsConfig<DateTime>.SerializeFn = time => new DateTime(time.Ticks, DateTimeKind.L
 
 JsConfig<DateTime?>.SerializeFn = time => time != null ? new DateTime(time.Value.Ticks, DateTimeKind.Local).ToString("o") : null;
 {% endhighlight%}
+
+#### Conclusion
+Depending on your needs, you may always want the time to be treated as local time everywhere hence ignoring different time zones. In which case you will want to go for the first solution.
+
+However for the needs to show time differently to people with different time zones a much more thoughtful decision would be required and browsers' behavior will need to be taken into consideration, specially when the services are not returning any time zone information.
