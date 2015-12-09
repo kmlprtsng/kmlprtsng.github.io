@@ -60,3 +60,9 @@ I have worked on many work based projects the links to which are only avilable i
 
 ### Personal Projects Currently working on
 - [Sehaj Paath Tracker Ionic App](https://github.com/kmlprtsng/SehajPaathTracker)
+
+### Favourite Books
+- [Become An Idea Machine](http://www.amazon.co.uk/Become-An-Idea-Machine-Currency-ebook/dp/B00S1PRTL4)
+- [Rework](http://www.amazon.co.uk/Rework/dp/B003BKOYOY/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449662300&sr=1-1&keywords=rework)
+- [The User's Guide to the Human Mind](http://www.amazon.co.uk/gp/product/1608820521?psc=1&redirect=true&ref_=oh_aui_detailpage_o05_s00)
+- [The Art of Persistence](http://www.amazon.co.uk/Art-Persistence-Quitting-Objects-Success-ebook/dp/B00UFGN128/ref=asap_bc?ie=UTF8)
