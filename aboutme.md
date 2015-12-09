@@ -5,12 +5,6 @@ subtitle: "I play hockey, love programming and I'm always looking to improve"
 published: true
 ---
 
-
-
-
-
-
-
 Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like Angular, React, knockout etc. Through this blog I would like to share my knowledge with the world and also would like to learn from the visitors of this blog. With the sharing of knowledge, I hope that the world will be a better place.
 
 Currently I am very interested in full stack developement and I'm looking into [Meteor](https://www.meteor.com/) and [MEAN](http://meanjs.org/). I also have a keen interest in cross browser developement.
@@ -34,6 +28,7 @@ I have worked on many work based projects the links to which are only avilable i
 - Asp.net MVC
 - ServiceStack
 - Object Oriented CSS, SASS & LESS
+- Cross Browser Development & Responsive Design
 - Meteor
 - MEAN
 - Knockout
