@@ -29,6 +29,7 @@ I have worked on many work based projects the links to which are only avilable i
 - ServiceStack
 - Object Oriented CSS, SASS & LESS
 - Cross Browser Development & Responsive Design
+- Javascript and jQuery
 - Meteor
 - MEAN
 - Knockout
@@ -55,7 +56,7 @@ I have worked on many work based projects the links to which are only avilable i
 - Cygwin
 - VIM
 - Ruby
-- NodeJs
+- TypeScript
 
 ### Personal Projects Currently working on
 - [Sehaj Paath Tracker Ionic App](https://github.com/kmlprtsng/SehajPaathTracker)
