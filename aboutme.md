@@ -5,8 +5,6 @@ subtitle: "I play hockey, love programming and I'm always looking to improve"
 published: true
 ---
 
-
-
 Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like Angular, React, knockout etc. Through this blog I would like to share my knowledge with the world and also would like to learn from the visitors of this blog. With the sharing of knowledge, I hope that the world will be a better place.
 
 Currently I am very interested in full stack developement and I'm looking into [Meteor](https://www.meteor.com/) and [MEAN](http://meanjs.org/). I also have a keen interest in cross browser developement.
@@ -65,6 +63,7 @@ I have worked on many work based projects the links to which are only avilable i
 
 ### Favourite Books
 - [Become An Idea Machine](http://www.amazon.co.uk/Become-An-Idea-Machine-Currency-ebook/dp/B00S1PRTL4)
+- [Don't make me think](http://www.amazon.co.uk/Dont-Make-Me-Think-Usability/dp/0321344758)
 - [Rework](http://www.amazon.co.uk/Rework/dp/B003BKOYOY/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449662300&sr=1-1&keywords=rework)
 - [The User's Guide to the Human Mind](http://www.amazon.co.uk/gp/product/1608820521?psc=1&redirect=true&ref_=oh_aui_detailpage_o05_s00)
 - [The Art of Persistence](http://www.amazon.co.uk/Art-Persistence-Quitting-Objects-Success-ebook/dp/B00UFGN128/ref=asap_bc?ie=UTF8)
