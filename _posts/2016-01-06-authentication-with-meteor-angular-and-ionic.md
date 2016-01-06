@@ -26,6 +26,49 @@ accounts-password
 useraccounts:ionic
 ```
 
+Add a authentication-template.hooks.js file
+
+```
+angular
+    .module('yourModule')
+    .run(function ($ionicHistory, $state) {
+		AccountsTemplates.options.onSubmitHook = onSubmitHook;
+		AccountsTemplates.options.onLogoutHook = onLogoutHook;
+		
+		//////////////////
+		function onSubmitHook(error, state) {
+			if (!error) {
+				if (state === "signIn" || state === "signUp") {
+					$ionicHistory.nextViewOptions({
+						historyRoot: true
+					});
+
+					$state.go("logged-in-greeting-page");
+				}
+			}
+		}
+
+		function onLogoutHook() {
+			$ionicHistory.nextViewOptions({
+				historyRoot: true
+			});
+
+			$state.go("login");
+		}
+
+    });
+```
+
+Include the authentication form in your login page:
+
+```
+<ion-view title="Login" class="pane-login" hide-nav-bar="true">
+    <ion-content padding="false">
+    	<!-- INCLUDE THE FOLLOWING IN YOUR VIEW -->
+        <blaze-template name="atForm"></blaze-template>
+    </ion-content>
+</ion-view>
+```
 
 #### Checkout this code being using in my side project
 [Sehaj Paath Tracker](https://github.com/kmlprtsng/SehajPaathTracker)
