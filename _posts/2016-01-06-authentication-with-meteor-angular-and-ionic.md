@@ -30,7 +30,7 @@ useraccounts:ionic
 
 Add a **authentication-template.hooks.js** file in your client folder.
 
-```
+~~~
 angular
     .module('yourModule')
     .run(function ($ionicHistory, $state) {
@@ -58,24 +58,24 @@ angular
 		}
 
     });
-```
+~~~
 
 Include the authentication form in your login page:
 
-```
+~~~
 <ion-view title="Login" class="pane-login" hide-nav-bar="true">
     <ion-content padding="false">
     	<!-- INCLUDE THE FOLLOWING IN YOUR VIEW -->
         <blaze-template name="atForm"></blaze-template>
     </ion-content>
 </ion-view>
-```
+~~~
 
 For more information about what forms are available and other UserAccounts options have a look at their [documentation](https://github.com/meteor-useraccounts/core/blob/master/Guide.md).
 
 Also, you probably also want to configure your account templates. I included this in my **lib/authentication/account-template.config.js**.
 
-```
+~~~
 AccountsTemplates.configure({
     //defaultLayout: 'emptyLayout',
     showForgotPasswordLink: false,
@@ -104,7 +104,7 @@ AccountsTemplates.configure({
 	
 	// onSubmitHook: mySubmitFunc
 });
-```
+~~~
 
 #### Checkout this code in use in my side project
 [Sehaj Paath Tracker Source Code](https://github.com/kmlprtsng/SehajPaathTracker)
