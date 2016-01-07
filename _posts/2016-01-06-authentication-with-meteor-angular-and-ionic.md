@@ -6,7 +6,7 @@ published: true
 title: "Authentication with Meteor, Angular and Ionic"
 ---
 
-Well, the Meteor authentication works out of the box and it's great but what if you want to use it with [Angular-Meteor](http://www.angular-meteor.com/) package and Ionic. I had to do that recently and it took me a while and gave me some grief but in the end it came out to be pretty simple. So let me share my secret recipe with you.
+Well, the Meteor authentication works out of the box and it's great but what if you want to use it with [Angular-Meteor](http://www.angular-meteor.com/) package and [Ionic](http://ionicframework.com/). I had to do that recently and it took me a while and gave me some grief but in the end it came out to be pretty simple. So let me share my secret recipe with you.
 
 I looked at the following tutorials initially to see how I would be able to achieve this:
 
