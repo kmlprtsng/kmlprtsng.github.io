@@ -15,6 +15,7 @@ I looked at the following tutorials initially to see how I would be able to achi
 - [Meteor Ionic Basic Accounts Demo](https://github.com/aaronksaunders/meteor-ionic-demo2/blob/master/README.md)
 - [UserAccounts for Meteor](https://useraccounts.meteor.com/)
 
+
 #### So do I really have to have custom UI for the Ionic project? Is that the only way?
 ehhh... no... unless you really really want to create one and if you do then please share your solution in the comments below. It would be great to see another alternative.
 
@@ -23,9 +24,7 @@ Include the following packages. The key ingredient is Urigo's [Angular-blaze-tem
 
 ```
 urigo:angular-blaze-template
-
 accounts-password
-
 useraccounts:ionic
 ```
 
