@@ -28,6 +28,7 @@ urigo:angular-blaze-template
 accounts-password
 
 useraccounts:ionic
+
 ```
 
 Add a **authentication-template.hooks.js** file in your client folder.
