@@ -24,7 +24,9 @@ Include the following packages. The key ingredient is Urigo's [Angular-blaze-tem
 
 ```
 urigo:angular-blaze-template
+
 accounts-password
+
 useraccounts:ionic
 ```
 
@@ -37,7 +39,6 @@ angular
 		AccountsTemplates.options.onSubmitHook = onSubmitHook;
 		AccountsTemplates.options.onLogoutHook = onLogoutHook;
 		
-		//////////////////
 		function onSubmitHook(error, state) {
 			if (!error) {
 				if (state === "signIn" || state === "signUp") {
