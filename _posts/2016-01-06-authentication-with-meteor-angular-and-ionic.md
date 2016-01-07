@@ -20,7 +20,7 @@ I looked at the following tutorials initially to see how I would be able to achi
 ehhh... no... unless you really really want to create one and if you do then please share your solution in the comments below. It would be great to see another alternative.
 
 #### So what's your solution dude?
-Include the following packages. The key ingredient is Urigo's [Angular-blaze-template](https://github.com/Urigo/angular-blaze-template/) package.
+Include the following packages in your meteor project. The key ingredient is Urigo's [Angular-blaze-template](https://github.com/Urigo/angular-blaze-template/) package.
 
 ~~~
 urigo:angular-blaze-template
@@ -71,7 +71,9 @@ Include the authentication form in your login page:
 </ion-view>
 ~~~
 
-For more information about what forms are available and other UserAccounts options have a look at their [documentation](https://github.com/meteor-useraccounts/core/blob/master/Guide.md).
+For more information about what forms are available and other [UserAccounts for Meteor](https://useraccounts.meteor.com/) options have a look at their [documentation](https://github.com/meteor-useraccounts/core/blob/master/Guide.md).
+
+Also, read through the documentation for [Meteor-UserAccounts/ionic](https://github.com/meteor-useraccounts/ionic) package.
 
 Also, you probably also want to configure your account templates. I included this in my **lib/authentication/account-template.config.js**.
 
