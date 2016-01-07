@@ -22,14 +22,11 @@ ehhh... no... unless you really really want to create one and if you do then ple
 #### So what's your solution dude?
 Include the following packages. The key ingredient is Urigo's [Angular-blaze-template](https://github.com/Urigo/angular-blaze-template/) package.
 
-```
+~~~
 urigo:angular-blaze-template
-
 accounts-password
-
 useraccounts:ionic
-
-```
+~~~
 
 Add a **authentication-template.hooks.js** file in your client folder.
 
