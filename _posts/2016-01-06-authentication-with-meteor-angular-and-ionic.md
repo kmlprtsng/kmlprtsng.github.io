@@ -9,6 +9,7 @@ title: "Authentication with Meteor, Angular and Ionic"
 Well, the Meteor authentication works out of the box and it's great but what if you want to use it with [Angular-Meteor](http://www.angular-meteor.com/) package and Ionic. I had to do that recently and it tooke me a while and gave me some grief but in the end it came out to be pretty simple. So let me share my secret recepie with you.
 
 I looked at the following tutorials initially to see how I would be able to achieve this:
+
 - [Step 8 - User accounts, authentication and permissions](http://www.angular-meteor.com/tutorials/socially/angular1/user-accounts-authentication-and-permissions)
 - [Meteor Accounts with custom UI Tutorial](https://www.codetutorial.io/meteor-accounts-custom-ui-tutorial/)
 - [Meteor Ionic Basic Accounts Demo](https://github.com/aaronksaunders/meteor-ionic-demo2/blob/master/README.md)
