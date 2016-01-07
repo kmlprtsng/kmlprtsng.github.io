@@ -23,7 +23,9 @@ Include the following packages. The key ingredient is Urigo's [Angular-blaze-tem
 
 ```
 urigo:angular-blaze-template
+
 accounts-password
+
 useraccounts:ionic
 ```
 
