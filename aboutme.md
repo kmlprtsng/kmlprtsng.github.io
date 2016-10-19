@@ -60,6 +60,7 @@ I have worked on many work based projects the links to which are only avilable i
 
 ### Personal Projects Currently working on
 - [Sehaj Paath Tracker Ionic App](https://github.com/kmlprtsng/SehajPaathTracker)
+- [Sikh Sangeet](https://play.google.com/store/apps/details?id=sikhsangeet.app&hl=en) - Total redesign from scratch with Ionic
 
 ### Favourite Books
 - [Become An Idea Machine](http://www.amazon.co.uk/Become-An-Idea-Machine-Currency-ebook/dp/B00S1PRTL4)
