@@ -19,7 +19,6 @@ I have worked on many work based projects the links to which are only avilable i
 - [Singh Sabha Derby Radio App](https://play.google.com/store/apps/details?id=uk.co.sgssderby.radio&hl=en_GB)
 - [Sehaj Paath Tracker](http://sehajpaathtracker.com/)
 - [Asp.net Generic MVC Project Template](https://github.com/kmlprtsng/MvcGenericProjectTemplate)
-- [RHC Derby](http://rhchockey.github.io/)
 - [FirstWorldRx](https://www.firstworldrx.com/)
 
 ### Technology I've worked with
