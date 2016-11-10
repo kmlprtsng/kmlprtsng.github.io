@@ -10,7 +10,7 @@ Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest i
 Currently I am very interested in full stack developement and I'm looking into [Meteor](https://www.meteor.com/) and [MEAN](http://meanjs.org/). I also have a keen interest in cross browser developement.
 
 ### Side Personal Projects Currently working on
-- [Sehaj Paath Tracker Ionic App](https://github.com/kmlprtsng/SehajPaathTracker)
+- [Sehaj Paath Tracker](https://github.com/kmlprtsng/SehajPaathTracker) - Ionic + AngularJs
 - [Sikh Sangeet](https://play.google.com/store/apps/details?id=sikhsangeet.app&hl=en) - Ionic + AngularJS
 
 ### Projects I have worked on
