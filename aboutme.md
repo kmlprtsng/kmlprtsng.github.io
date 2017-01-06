@@ -5,9 +5,9 @@ subtitle: "I play hockey, love programming and I'm always looking to improve"
 published: true
 ---
 
-Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like Angular, React, knockout etc. Through this blog I would like to share my knowledge with the world and also would like to learn from the visitors of this blog. With the sharing of knowledge, I hope that the world will be a better place.
+Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like Angular, React, knockout etc. Through this blog I would like to share my knowledge and would like to learn from the visitors of this blog. With the sharing of knowledge, I hope that the world will be a better place.
 
-Currently I am very interested in full stack developement and I'm looking into [Meteor](https://www.meteor.com/) and [MEAN](http://meanjs.org/). I also have a keen interest in cross browser developement.
+Currently I'm looking into Angular 2, ASP.NET Core & ASP.NET Web API and I have a keen interest in cross browser developement.
 
 ### Side Personal Projects Currently working on
 - [Sehaj Paath Tracker](https://github.com/kmlprtsng/SehajPaathTracker) - Ionic + Meteor + AngularJs
