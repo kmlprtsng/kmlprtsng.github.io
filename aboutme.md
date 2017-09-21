@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: "I play hockey, love programming and I'm always looking to improve"
+subtitle: 'I play hockey, love programming and I''m always looking to improve'
 published: true
 ---
 
@@ -53,6 +53,7 @@ I have worked on many work based projects the links to which are only avilable i
 - Team City
 - CMS: Wordpress, Joomla
 - Ecommerce systems: NopCommerce
+- Xamarin (Android Developement)
 
 ### Technology I've dabbled with
 - Vagrant
