@@ -37,6 +37,7 @@ I have worked on many work based projects the links to which are only avilable i
 - MEAN
 - Knockout
 - Angular
+- Angular 2
 - Ionic
 - Twitter Bootstrap
 - Jekyll
