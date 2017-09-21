@@ -5,13 +5,11 @@ subtitle: 'I play hockey, love programming and I''m always looking to improve'
 published: true
 ---
 
-Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like Angular, React, knockout etc. Through this blog I would like to share my knowledge and would like to learn from the visitors of this blog. With the sharing of knowledge, I hope that the world will be a better place.
+Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest in front end frameworks like Angular, React, knockout etc. Through this blog I would like to share my knowledge and learn from the visitors of this blog.
 
-Currently I'm looking into Angular 2, ASP.NET Core & ASP.NET Web API and I have a keen interest in cross browser developement.
+[//]: <> (Currently I'm looking into Angular 2, ASP.NET Core & ASP.NET Web API and I have a keen interest in cross browser developement.)
 
-### Side Personal Projects Currently working on
-- [Sehaj Paath Tracker](https://github.com/kmlprtsng/SehajPaathTracker) - Ionic + Meteor + AngularJs
-- [Sikh Sangeet](https://play.google.com/store/apps/details?id=sikhsangeet.app&hl=en) - Ionic + AngularJS
+[//]: <> (### Side Personal Projects Currently working on)
 
 ### Projects I have worked on
 
@@ -24,6 +22,8 @@ I have worked on many work based projects the links to which are only avilable i
 - [Sehaj Paath Tracker](http://sehajpaathtracker.com/)
 - [Asp.net Generic MVC Project Template](https://github.com/kmlprtsng/MvcGenericProjectTemplate)
 - [FirstWorldRx](https://www.firstworldrx.com/)
+- [Sikh Sangeet](https://play.google.com/store/apps/details?id=sikhsangeet.app&hl=en) - Ionic + AngularJS
+- [Sehaj Paath Tracker](https://github.com/kmlprtsng/SehajPaathTracker) - Ionic + Meteor + AngularJs
 
 ### Technology I've worked with
 - SOA
