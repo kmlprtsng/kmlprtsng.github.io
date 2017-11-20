@@ -30,7 +30,6 @@ I have worked on many work based projects the links to which are only avilable i
 - Cross Browser Development & Responsive Design
 - Javascript and jQuery
 - Meteor
-- MEAN
 - Knockout
 - Angular
 - Angular 2
@@ -52,13 +51,21 @@ I have worked on many work based projects the links to which are only avilable i
 - Ecommerce systems: NopCommerce
 - Xamarin (Android Developement)
 
-
 ### Technology I've dabbled with
 - Vagrant
 - Cygwin
 - VIM
 - Ruby
 - TypeScript
+
+### Productivity Tips
+- Good sleep
+- [Brain.fm](https://www.brain.fm/)
+- [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)
+- Take frequent breaks
+- [Attention Management](http://regainyourtime.com/productivity-time-management-training/attention-management/)
+- Meditation
+- [Workflowy](https://workflowy.com/invite/18672437.lnx) - Plan your work
 
 ### Favourite Books
 - [Become An Idea Machine](http://www.amazon.co.uk/Become-An-Idea-Machine-Currency-ebook/dp/B00S1PRTL4)
