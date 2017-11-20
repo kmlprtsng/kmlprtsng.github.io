@@ -15,13 +15,9 @@ Hi my name is Kamalpreet and I am a ASP.NET developer with particular interest i
 
 I have worked on many work based projects the links to which are only avilable internally so here is a list of projects that I have worked on in my free time:
 
-- [Punjab Times](http://www.punjabtimes.co.uk)
 - [SikhNet Radio App](https://itunes.apple.com/app/gurbani-media-center/id487763229) - Partially worked on this
 - [Singh Sabha Derby](http://www.sgssderby.co.uk)
-- [Singh Sabha Derby Radio App](https://play.google.com/store/apps/details?id=uk.co.sgssderby.radio&hl=en_GB)
-- [Sehaj Paath Tracker](http://sehajpaathtracker.com/)
 - [Asp.net Generic MVC Project Template](https://github.com/kmlprtsng/MvcGenericProjectTemplate)
-- [FirstWorldRx](https://www.firstworldrx.com/)
 - [Sikh Sangeet](https://play.google.com/store/apps/details?id=sikhsangeet.app&hl=en) - Ionic + AngularJS
 - [Sehaj Paath Tracker](https://github.com/kmlprtsng/SehajPaathTracker) - Ionic + Meteor + AngularJs
 
@@ -55,6 +51,7 @@ I have worked on many work based projects the links to which are only avilable i
 - CMS: Wordpress, Joomla
 - Ecommerce systems: NopCommerce
 - Xamarin (Android Developement)
+
 
 ### Technology I've dabbled with
 - Vagrant
