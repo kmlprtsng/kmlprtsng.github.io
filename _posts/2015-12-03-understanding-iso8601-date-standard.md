@@ -3,7 +3,7 @@ layout: post
 title: Understanding ISO8601 International Date Standard
 published: true
 subtitle: The three musketeers
-date: "2015-12-03"
+date: '2015-12-03'
 ---
 
 
@@ -53,7 +53,7 @@ Out of all, UTC is the best way to handle time as it is internationally recogniz
 
 Well there are three ways to represent it.
 
-1st way is to append **Z** at the end of time, which means that the date is represented in universal time and the client should then do the necessary calculation to convert the time to their time zone. e.g. 2015-08-10T12:00Z would equate to 2015-08-10T17:30 in India which is GMT + 5:30. **Z** is pronounced ad Zulu (Zulu is represented as Z in radio communications).
+1st way is to append **Z** at the end of time, which means that the date is represented in universal time and the client should then do the necessary calculation to convert the time to their time zone. e.g. 2015-08-10T12:00Z would equate to 2015-08-10T17:30 in India which is GMT + 5:30. **Z** is pronounced as Zulu (Zulu is represented as Z in radio communications).
 
 2nd way is to calculate the time with certain offset and append that offset information at the end i.e. 2015-08-10T17:30+05:30 would mean that GMT+5:30 has already been calculated.
 
