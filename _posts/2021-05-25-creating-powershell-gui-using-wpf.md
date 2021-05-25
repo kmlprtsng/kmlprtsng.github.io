@@ -6,12 +6,10 @@ date: '2016-01-06'
 ---
 # Creating WPF Powershell GUI
 
-Creating a powershell GUI is really simple but it can be hard to find the right informaiton. I started off using PoshGUI.com to create the GUI using winforms but that tool became a paid tool so that was the end of that and I had to find an alternative. Also, the experience of using PoshGUI was good but not the best. The following code provides a template but you can create your own UI using WPF app in Visual Studio.
+Creating a powershell GUI is really simple but it can be hard to find the right information. I started off using PoshGUI.com to create the GUI using winforms but that tool became a paid so that was the end of that and I had to find an alternative. Also, the experience of using PoshGUI was good but not the best. The following code provides a template you can use to get started and then create your own GUI using WPF app in Visual Studio.
 
 # Step 1: Create powershell script for GUI
-Create a powershell script file. Call it `helloworld.gui.ps1` (you will see what it is has a .gui post fix soon).
-
-Add the following code snippet
+Create a powershell script file. Call it `helloworld.gui.ps1` and add the following code snippet
 
 ```powershell
 Add-Type -AssemblyName PresentationFramework
@@ -72,8 +70,8 @@ function RunCode()
 $Window.ShowDialog() | Out-Null
 ```
 
-# Step 2: Create .bat file to launch the pervious file with double click
-Create a new file. Name it `helloWorld.gui.bat` (make sure that the this file name matches the previous file apart from the final extension)
+# Step 2: Create .bat file to launch the powershell script with double click
+Create a new file and call it `helloWorld.gui.bat` (make sure that  this file name matches the previous file apart from the .bat extension)
 
 ```powershell
 @ECHO OFF
@@ -81,7 +79,7 @@ PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -ArgumentLis
 ```
 
 # Step 3: Create a new powershell file which the gui will call to execute code
-This is optional but sometimes you want the GUI to just collect information and call another powershell to do some powerfull stuff. Name this file `helloworld.ps1` and add the following code
+This is optional but sometimes you want the GUI to just collect information and call another powershell script to do some powerfull stuff. Name this file `helloworld.ps1` and add the following code
 
 ```powershell
 param ( $name )
@@ -91,5 +89,8 @@ Write-Host "Hello $name"
 PAUSE
 ```
 
+# Step 4: Test
+Click the .bat file to boot up the GUI and have a play.
+
 # Step 4: Celebrate
-This is just a template code and the possibilities are endless. You dont have to create step 3. You could just execute all the logic in the gui.ps1 file but sometimes you may want to just execute poweshell script to do the final leg work and let the user see/handle the errors.
+This is just a template code and the possibilities are endless. You dont have to create step 3. You could just execute all the logic in the gui.ps1 file. However sometimes you may want to just execute poweshell script to do the final leg work and let the user see/handle the errors.
