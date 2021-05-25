@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Creating Powershell GUI using WPF
+date: '2016-01-06'
 ---
 # Creating WPF Powershell GUI
 
