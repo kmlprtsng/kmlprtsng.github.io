@@ -6,7 +6,7 @@ date: '2016-01-06'
 ---
 # Creating WPF Powershell GUI
 
-Creating a powershell GUI is really simple but it can be hard to find the right information. I started off using PoshGUI.com to create the GUI using winforms but that tool became a paid so that was the end of that and I had to find an alternative. Also, the experience of using PoshGUI was good but not the best. The following code provides a template you can use to get started and then create your own GUI using WPF app in Visual Studio.
+Creating a powershell GUI is really simple but it can be hard to find the right information. I started off using PoshGUI.com to create the GUI using winforms but that tool turned into a monthly paid subscription so I had to find an alternative. Also, the experience of using PoshGUI was good but not the best. The following code provides a template you can use to get started and then create your own GUI using WPF app in Visual Studio.
 
 # Step 1: Create powershell script for GUI
 Create a powershell script file. Call it `helloworld.gui.ps1` and add the following code snippet
